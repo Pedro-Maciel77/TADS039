@@ -8,20 +8,32 @@
     <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
     <title>Currículo - Pedro Henrique Maciel</title>
 </head>
-<body class="container">
-    <nav>
-
+<body>
+    <nav id="menuPedro" class="fixed-top">
+        <div class="container d-flex justify-content-center">
+            <a class="menuPedro mx-2" href="#apresentacao">Pedro Henrique</a>
+            <a class="menuPedro mx-2" href="#sobre">Sobre</a>
+            <a class="menuPedro mx-2" href="#formacao">Formação Acadêmica
+            </a>
+            <a class="menuPedro mx-2" href="#experiencia">Experiência Profissional</a>
+            <a class="menuPedro mx-2" href="#habilidades">Habilidades</a>
+            <a class="menuPedro mx-2" href="#contato">Contato</a>
+            <a class="menuPedro mx-2" href="#endereco">Endereço</a>
+        </div>
     </nav>
-    <main>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-4">
-                <img src="IMGs/download (1).png" alt="Logo" class="img-fluid" width="350" height="350">
-    </div>
-    <div class="col-8 text-center">
-        <p style="margin-top: 90px;"></p>
-<h1 id="Branco">Pedro Henrique Maciel Rodrigues da Silva</h1>
-<h2 id="cor">(Analista de Sistemas)</h2></div>
+    <main class="container">
+        <div id="apresentacao" class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="IMGs/download (1).png" alt="Logo" class="img-fluid" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="col-12 col-md-8 text-center">
+                    <h1 class="text-wrap">Pedro Henrique Maciel Rodrigues da Silva</h1>
+                    <h3>(Analista de Sistemas)</h3>
+                </div>
+            </div>
+        </div>
+        <div class="card my-2 hrCurriculo"></div>
 <h2><strong>Sobre Mim</strong></h2>
 <p>Olá, meu nome é Pedro Henrique e estou atualmente no segundo período do curso de Análise e Desenvolvimento de Sistemas (ADS). Tenho conhecimentos básicos em JavaScript, HTML e CSS, e estou constantemente aprimorando minhas habilidades em desenvolvimento web. Sou dedicado aos estudos e busco sempre aprender novas tecnologias para me tornar um profissional completo na área de TI.</p>
     <p>
@@ -37,15 +49,19 @@
         <img src="IMGs/download (2).png" alt="logo do github" widht="30" height="30"> Linkedin:<a id="Branco" href='www.linkedin.com/in/pedro-henrique-43a835323'><span class="animaçao">www.linkedin.com/in/pedro-henrique-43a835323</span></a>
         <hr>
     </p>
-    <h2>Formação</h2>
-    <p><li>Análise e Desenvolvimento de Sistemas (ADS)</li></p>
-    <p>- Faculdade: Senac-PE </p>
-    <p>- Período: 2024-2026</p>
-    <p><li>Ensino Médio Completo</li></p>
-    <p> - Escola: Opvest Colegio e Curso</p>
-    <p>- Período: 2021-2023</p>
-   
-<hr>
+    <div id="formacao" class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Formação Acadêmica</h2>
+                <p><li>Análise e Desenvolvimento de Sistemas (ADS)</li></p>
+                <p>- Faculdade: Senac-PE </p>
+                <p>- Período: 2024-2026</p>
+                <p><li>Ensino Médio Completo</li></p>
+                <p> - Escola: Opvest Colegio e Curso</p>
+                <p>- Período: 2021-2023</p>
+            </div>
+        </div>
+    </div>
 <p><h2>Hard Skills</h2></p>
 <table class="table table-striped">
     <tr>
